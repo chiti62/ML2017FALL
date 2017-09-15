@@ -16,4 +16,4 @@ for w in range(width):
 		g = math.floor(g/2)
 		b = math.floor(b/2)
 		ans.putpixel([w,h],(r,g,b))
-ans.save("Q2.jpg")
+ans.save("Q2.png")
