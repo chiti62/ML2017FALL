@@ -80,7 +80,7 @@ import os
 from keras.layers import Dense, Convolution2D, UpSampling2D, MaxPooling2D, ZeroPadding2D, Flatten, Dropout, Reshape
 from keras.models import Sequential
 from keras.utils import np_utils
-from sklearn.model_selection import train_test_split
+#from sklearn.model_selection import train_test_split
 
 X_train = x[0:28510,:]
 Y_train = y[0:28510]
@@ -107,9 +107,9 @@ from keras.utils import np_utils
 from keras.regularizers import l2
 import numpy
 import csv
-import scipy.misc
-import scipy
-from scipy import ndimage
+#import scipy.misc
+#import scipy
+#from scipy import ndimage
 import numpy as np
 from keras.preprocessing.image import ImageDataGenerator
 from keras.callbacks import CSVLogger, EarlyStopping, TensorBoard, ModelCheckpoint, ReduceLROnPlateau
